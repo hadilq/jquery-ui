@@ -31,6 +31,15 @@ return $.widget( "ui.slider", $.ui.mouse, {
 
 	options: {
 		animate: false,
+		classes: {
+			"ui-slider": "ui-corner-all",
+			"ui-slider-handle": "ui-corner-all",
+			"ui-slider-range": "ui-corner-all",
+			"ui-slider-range-min": "",
+			"ui-slider-range-max": "",
+			"ui-slider-horizontal": "",
+			"ui-slider-vertical": ""
+		},
 		distance: 0,
 		max: 100,
 		min: 0,
